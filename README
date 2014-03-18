@@ -1,0 +1,15 @@
+Are you using PrestaShop?
+
+If you need to show the "manufacturer_name" in every product inside your packed product this class can help
+
+Now you can use {$manufacturer_name} inside your tpl file.
+
+Override class Pack.php
+
+Installation:
+download the file classes/Pack.php
+move the file in <PrestaShop root>/override/classes
+remove (or rename) the file <PrestaShop root>/cache/class_index.php
+Reload your home page
+
+Enjoy.
